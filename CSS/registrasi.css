@@ -1,0 +1,130 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: rgb(20, 67, 111);
+}
+
+.kembali {
+  position: absolute;
+}
+
+.btn {
+  color: white;
+  font-weight: 600;
+  margin-left: 20px;
+  margin-top: 20px;
+  font-size: 25px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.btn:hover {
+  color: rgb(224, 224, 224);
+}
+
+.registrasi {
+  width: 50%;
+  margin-left: 25%;
+  padding-top: 50px;
+}
+
+.gambar {
+  width: 18%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+}
+
+input {
+    outline: none;
+}
+
+.we {
+  width: 70%;
+  height: 6vh;
+  margin-top: 12px;
+  border-radius: 7px;
+  outline: none;
+  padding-left: 10px;
+  border: none;
+}
+
+.we2 {
+    width: 70%;
+    height: 6vh;
+    margin-top: 12px;
+    border-radius: 7px;
+    outline: none;
+    padding-left: 10px;
+    color: white;
+    background-color: rgb(37, 103, 165);
+    border: none;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.we2:hover {
+    background-color: #3a6994ff;
+}
+
+.form {
+    width: 60%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.bagian {
+    margin-top: 10px;
+    margin-left: 35px;
+}
+
+.bagian2 {
+    margin-top: 5px;
+    margin-left: 35px;
+    margin-bottom: 40px;
+}
+
+.ceklis {
+    float: left;
+    margin-top: 2px;
+    margin-left: 19px;
+    margin-right: 7px;
+}
+
+.peringatan {
+    color: white;
+    float: left;
+    padding-bottom: 10px;
+}
+
+::placeholder {
+    color : #3a6994ff;
+    padding-left: 1px;
+}
+
+::value {
+    color: white;
+}
+
+.login {
+    color: white;
+    font-size: 10px;
+    cursor: pointer;
+    text-decoration: none;
+}
+a .login {
+    text-decoration: none;
+}
+
+a .login:hover {
+    text-decoration: underline;
+}

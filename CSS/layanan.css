@@ -1,0 +1,268 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  padding-top: 20px;
+  padding-left: 20px;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  padding: 1px 14px;
+  text-decoration: none;
+  text-align: center;
+  color: #3a6994ff;
+  font-size: 9.5px;
+}
+
+.logo {
+  width: 50px;
+  border-radius: 20px;
+}
+
+.fitur {
+  margin-left: 250px;
+}
+
+.fitur4 {
+  margin-right: 175px;
+}
+
+.font {
+  font-weight: 400;
+  font-size: 15px;
+}
+
+.font:hover {
+  font-weight: 600;
+}
+
+.daftar {
+  font-weight: 400;
+  margin-right: 20px;
+  font-size: 15px;
+}
+
+.daftar:hover {
+  font-weight: 600;
+}
+
+.masuk {
+  background: #3a6994ff;
+  border-radius: 10px;
+  padding: 1px 30px;
+  cursor: pointer;
+}
+
+.masuk:hover {
+  background: rgb(76, 144, 207);
+}
+
+.login {
+  color: white;
+  font-size: 15px;
+}
+
+.header {
+  width: 100%;
+  height: 100vh;
+  background-color: #3a6994;
+  background-position: center;
+  background-size: cover;
+  box-sizing: border-box;
+  text-align: center;
+  margin-top: 10px;
+  margin: 0;
+  padding: 0;
+}
+
+.tulisan {
+  font-weight: 700;
+  color: white;
+  font-size: 40px;
+  padding-top: 60px;
+  margin: 0;
+}
+
+.tulisan2 {
+  font-weight: 400;
+  padding: 0;
+  margin: 0;
+  color: white;
+}
+
+.content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.log {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+  margin-top: 20px;
+}
+.gambar {
+  border-radius: 50%;
+  background-color: #4474a1;
+}
+
+.Card {
+  margin: 10px 10px;
+  width: 25%;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.container {
+  padding: 2px 16px;
+}
+
+.satu {
+  font-weight: 600;
+  color: #1b4974;
+}
+
+.dua {
+  color: #1b4974;
+}
+
+.Card:hover,
+.satu p,
+.dua p {
+  background-color: #1b4974;
+  transition: 0.2s;
+  .satu,
+  .dua {
+    color: white;
+    transition: 0.2s;
+  }
+  .gambar {
+    background-color: white;
+    transition: 0.2s;
+  }
+}
+
+.footer {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("../images/footer.jpg");
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.semboyan {
+  color: white;
+  width: 50%;
+  padding-top: 7%;
+  padding-left: 50px;
+  position: absolute;
+  font-weight: 600;
+}
+
+.input {
+  width: 35%;
+  background-color: white;
+  position: absolute;
+  right: 0;
+  margin-right: 12%;
+  margin-top: 8%;
+  text-align: center;
+  border-radius: 10px;
+}
+
+input {
+  width: 70%;
+  height: 7vh;
+  margin-top: 10px;
+}
+
+.pertinyi {
+  color: #1b4974;
+}
+
+.email,
+.pertanyaan {
+  background-color: rgb(202, 202, 202);
+  padding-left: 10px;
+  outline: none;
+}
+
+.button {
+  margin-top: 20px;
+  margin-bottom: 35px;
+  cursor: pointer;
+  color: white;
+  background-color: #1b4974;
+  font-weight: 600;
+}
+
+.button:hover {
+  background-color: #3a6994ff;
+}
+::placeholder {
+  padding-left: 0.5px;
+}
+
+::input {
+  color: white;
+}
+
+.info {
+  width: 25%;
+  margin-left: 50px;
+  margin-top: 23%;
+  position: absolute;
+}
+
+.icon {
+  border-radius: 50%;
+  width: 6%;
+  float: left;
+}
+
+.nama {
+  font-size: 15px;
+  color: white;
+  font-weight: 600;
+}
+
+.ket {
+  padding-left: 30px;
+  font-size: 10px;
+  color: white;
+}
+
+.sosmed {
+  width: 25%;
+  margin-left: 50px;
+  margin-top: 35%;
+  position: absolute;
+}
+
+.ket2 {
+  font-size: 10px;
+  color: white;
+}
+
+.icon2 {
+  border-radius: 50%;
+  width: 6%;
+  cursor: pointer;
+}

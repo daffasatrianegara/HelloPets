@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.ket {
+    text-align: center;
+    color: #3a6994ff;
+}
+
+input, textarea {
+    margin: auto;
+    display: block;
+}
+
+.jenis, .keluhan, .penyakit, .obat, .solusi {
+    width: 40%;
+    margin-top: 20px;
+    height: 30px;
+    border-radius: 10px;
+    border: solid;
+    border-color: #3a6994ff;
+}
+
+::placeholder {
+    color: rgb(113, 113, 113);
+}
+
+.solusi {
+    height: 100px;
+}
+
+.selesai {
+    width: 20%;
+    height: 40px;
+    color: white;
+    background-color: #3a6994ff;
+    cursor: pointer;
+    border-radius: 10px;
+    border: none;
+    margin-top: 20px;
+}
+

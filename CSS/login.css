@@ -1,0 +1,118 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("../images/animal.jpg");
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  background-position: center;
+  background-size: cover;
+}
+
+.back {
+  margin-top: 20px;
+  margin-left: 20px;
+  position: absolute;
+}
+
+.back2 {
+  text-decoration: none;
+  color: white;
+  font-size: 12.5px;
+}
+
+.back2:hover {
+  text-decoration: underline;
+  transition: 0.2s;
+}
+
+.form {
+    position: absolute;
+  width: 40%;
+  margin-left: 29%;
+  margin-top: 100px;
+  border-radius: 20px;
+  padding: 0;
+}
+
+input {
+  outline: none;
+}
+
+.gambar {
+  width: 25%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 25px;
+  margin-top: 20px;
+}
+
+.gambar2 {
+    border-radius: 50%;
+}
+
+.isi {
+  width: 60%;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.we {
+    width: 70%;
+    height: 6vh;
+    margin-top: 15px;
+    border-radius: 7px;
+    outline: none;
+    padding-left: 10px;
+    border: 2px solid;
+    border-color: rgb(37, 103, 165);
+}
+
+.we2 {
+    width: 70%;
+    height: 6vh;
+    margin-top: 40px;
+    border-radius: 7px;
+    outline: none;
+    padding-left: 10px;
+    color: white;
+    background-color: rgb(37, 103, 165);
+    border: none;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.we2:hover {
+    background-color: #3a6994ff;
+}
+
+::placeholder {
+    color : #3a6994ff;
+    padding-left: 1px;
+}
+
+.login1 {
+    text-decoration: none;
+}
+
+.login {
+    color: white;
+    font-size: 10px;
+    cursor: pointer;
+}
+a .login {
+    text-decoration: none;
+}
+
+a .login:hover {
+    text-decoration: underline;
+}

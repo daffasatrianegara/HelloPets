@@ -1,0 +1,218 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  padding-top: 20px;
+  padding-left: 20px;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  padding: 1px 14px;
+  text-decoration: none;
+  text-align: center;
+  color: #3a6994ff;
+  font-size: 9.5px;
+}
+
+.logo {
+  width: 50px;
+  border-radius: 20px;
+}
+
+.fitur {
+  margin-left: 235px;
+}
+
+.fitur4 {
+  margin-right: 160px;
+}
+
+.font {
+  font-weight: 400;
+  font-size: 15px;
+}
+
+.font:hover {
+  font-weight: 600;
+}
+
+.daftar {
+  font-weight: 400;
+  margin-right: 20px;
+  font-size: 15px;
+}
+
+.daftar:hover {
+  font-weight: 600;
+}
+
+.masuk {
+  background: #3a6994ff;
+  border-radius: 10px;
+  padding: 1px 25px;
+  cursor: pointer;
+}
+
+.masuk:hover {
+  background: rgb(76, 144, 207);
+}
+
+.login {
+  color: rgb(255, 255, 255);
+  font-size: 15px;
+}
+
+.batas {
+  margin-top: 50px;
+}
+.upload {
+  width: 125px;
+  position: relative;
+  margin: auto;
+}
+
+.upload img {
+  border-radius: 50%;
+  border: 8px solid #dcdcdc;
+}
+
+.upload .round {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background: #00b4ff;
+  width: 32px;
+  height: 32px;
+  line-height: 33px;
+  text-align: center;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.upload .round input[type="file"] {
+  position: absolute;
+  transform: scale(2);
+  opacity: 0;
+}
+
+input[type="file"]::-webkit-file-upload-button {
+  cursor: pointer;
+}
+
+.header {
+  width: 100%;
+  height: 90vh;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.text {
+  padding-top: 20%;
+  font-size: 35px;
+  color: #3a6994ff;
+}
+
+.text2 {
+  color: #3a6994ff;
+  font-size: 20px;
+}
+
+form {
+  border: 1px;
+  margin: 0rem auto 0 auto;
+  max-width: 600px;
+  text-align: left;
+}
+
+.form1 {
+  padding-top: 18px;
+  display: grid;
+  border: 1px;
+  margin: 0rem auto 0 auto;
+  max-width: 600px;
+  text-align: left;
+}
+
+form input {
+  background: rgb(255, 255, 255);
+  border: 1px solid #1b4974;
+}
+.tombol {
+  background: #1b4974;
+  padding: 0.7em;
+  width: 50%;
+  float: right;
+  border: 0;
+  color: white;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.tombol:hover {
+  background: #3a6994ff;
+}
+
+label {
+  color: #1b4974;
+  padding-bottom: 5px;
+}
+
+.edit {
+  padding: 0.7em;
+  margin-bottom: 0.8rem;
+}
+
+input:focus {
+  outline: 3px solid #1b4974;
+}
+
+.jp {
+  color: #1b4974;
+  text-align: center;
+  padding-right: 29rem;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  font-size: 18px;
+}
+
+.fake {
+  pointer-events: none;
+  padding: 0.7em;
+  margin-bottom: 0.8rem;
+}
+
+.input-control {
+  padding: 0.7em;
+  margin-bottom: 0.8rem;
+  padding-right: 30px;
+}
+
+.tombol1 {
+  background: #1b4974;
+  padding: 0.7em;
+  width: 50%;
+  float: left;
+  border: 0;
+  color: white;
+  cursor: pointer;
+  border-radius: 10px;
+}
+.tombol1:hover {
+  background: #3a6994ff;
+}
+
+.tampil {
+  color: white;
+  float: left;
+}

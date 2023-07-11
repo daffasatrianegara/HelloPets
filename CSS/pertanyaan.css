@@ -1,0 +1,127 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  padding-top: 20px;
+  padding-left: 20px;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  padding: 1px 14px;
+  text-decoration: none;
+  text-align: center;
+  color: #3a6994ff;
+  font-size: 9.5px;
+}
+
+.logo {
+  width: 50px;
+  border-radius: 20px;
+}
+
+.fitur {
+  margin-left: 235px;
+}
+
+.fitur4 {
+  margin-right: 160px;
+}
+
+.font {
+  font-weight: 400;
+  font-size: 15px;
+}
+
+.font:hover {
+  font-weight: 600;
+}
+
+.daftar {
+  font-weight: 400;
+  margin-right: 20px;
+  font-size: 15px;
+}
+
+.daftar:hover {
+  font-weight: 600;
+}
+
+.masuk {
+  background: #3a6994ff;
+  border-radius: 10px;
+  padding: 1px 25px;
+  cursor: pointer;
+}
+
+.masuk:hover {
+  background: rgb(76, 144, 207);
+}
+
+.login {
+  color: rgb(255, 255, 255);
+  font-size: 15px;
+}
+
+.pertanyaan {
+    text-align: center;
+    font-size: 15px;
+    padding-top: 10px;
+    color: #3a6994ff;
+}
+
+.judul, .judul2 {
+    margin-bottom: 0px;
+}
+
+.judul2 {
+    margin-top: 0px;
+}
+
+.user {
+    background-color: #3a6994ff;
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px #656565;
+    margin-bottom: 20px;
+}
+
+.user2 {
+    font-size: 20px;
+    margin-left: 10px;
+    padding-top: 15px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.user3 {
+    font-size: 15px;
+    margin-left: 15px;
+    margin-top: 0;
+    padding-top: 0;
+    font-weight: 400;
+    padding-bottom: 15px;
+}
+
+.user2, .user3 {
+    color: white;
+}
+
+.user:hover {
+    background-color: rgb(92, 157, 217);
+    box-shadow: 10px 10px 5px #656565;
+    transition: 0.2s;
+}

@@ -1,0 +1,161 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  padding-top: 20px;
+  padding-left: 20px;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  padding: 1px 14px;
+  text-decoration: none;
+  text-align: center;
+  color: #3a6994ff;
+  font-size: 9.5px;
+}
+
+.logo {
+  width: 50px;
+  border-radius: 20px;
+}
+
+.fitur {
+  margin-left: 250px;
+}
+
+.fitur4 {
+  margin-right: 175px;
+}
+
+.font {
+  font-weight: 400;
+  font-size: 15px;
+}
+
+.font:hover {
+  font-weight: 600;
+}
+
+.daftar {
+  font-weight: 400;
+  margin-right: 20px;
+  font-size: 15px;
+}
+
+.daftar:hover {
+  font-weight: 600;
+}
+
+.masuk {
+  background: #3a6994ff;
+  border-radius: 10px;
+  padding: 1px 30px;
+  cursor: pointer;
+}
+
+.masuk:hover {
+  background: rgb(76, 144, 207);
+}
+
+.login {
+  color: white;
+  font-size: 15px;
+}
+
+.content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.log {
+  margin-top: 10px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+  margin-top: 20px;
+}
+
+.semboyan {
+  margin: auto;
+  margin-top: 30px;
+}
+
+.rekom {
+  text-align: center;
+  color: #3a6994ff;
+  font-size: 30px;
+}
+
+.gambar {
+  margin-top: 10px;
+  border-style: solid;
+  border-color: #3a6994ff;
+}
+
+.card {
+  margin: 10px 10px;
+  width: 25%;
+  background-color: #dbebfa;
+  border-radius: 10px;
+}
+
+.container {
+  margin-top: 10px;
+  margin-bottom: 50px;
+}
+.nama,
+.satu,
+.dua,
+.tiga,
+.empat {
+  text-align: center;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.nama {
+  color: #416f99;
+  font-weight: 600;
+}
+
+.satu,
+.dua {
+  color: black;
+}
+
+.tiga,
+.empat {
+  font-weight: 600;
+  color: #0a3b68;
+}
+
+.card:hover {
+  box-shadow: 10px 10px 5px #656565;
+  transition: 0.5s;
+  background-color: #09355e;
+  .gambar {
+    border-color: #dbebfa;
+    transition: 0.5s;
+  }
+  .nama,
+  .satu,
+  .dua,
+  .tiga,
+  .empat {
+    color: white;
+    transition: 0.5s;
+  }
+}

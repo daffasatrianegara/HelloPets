@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  padding-top: 20px;
+  padding-left: 20px;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  padding: 1px 14px;
+  text-decoration: none;
+  text-align: center;
+  color: #3a6994ff;
+  font-size: 9.5px;
+}
+
+.logo {
+  width: 50px;
+  border-radius: 20px;
+}
+
+.fitur {
+  margin-left: 235px;
+}
+
+.fitur4 {
+  margin-right: 160px;
+}
+
+.font {
+  font-weight: 400;
+  font-size: 15px;
+}
+
+.font:hover {
+  font-weight: 600;
+}
+
+.daftar {
+  font-weight: 400;
+  margin-right: 20px;
+  font-size: 15px;
+}
+
+.daftar:hover {
+  font-weight: 600;
+}
+
+.masuk {
+  background: #3a6994ff;
+  border-radius: 10px;
+  padding: 1px 30px;
+  cursor: pointer;
+}
+
+.masuk:hover {
+  background: rgb(76, 144, 207);
+}
+
+.login {
+  color: white;
+  font-size: 15px;
+}
+
+.konten {
+  float: left;
+  padding-left: 34px;
+  padding-top: 75px;
+}
+
+.semboyan {
+  font-size: 50px;
+  font-weight: 700;
+  color: #3a6994ff;
+  margin-right: 180px;
+  margin-bottom: -10px;
+}
+
+.inggris {
+  font-size: 15px;
+  font-weight: 400;
+  color: #3a6994ff;
+}
+
+.dokter {
+  float: right;
+  margin-left: 100px;
+  width: 400px;
+}
