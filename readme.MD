@@ -1,3 +1,5 @@
+hellopets is a web-based information system that is used to conduct pet consultations. There are 3 types of users, namely users, veterinarians, and admins.
+
 build with :
 - HTML
 - CSS
